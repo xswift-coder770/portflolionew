@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <!----start section home -->
+
+    <section class="Home" id="home"> <!--section tag ka code ka readibility  ko badhane and structr ko maintina karne kek liye use kiya jata hai jaise  3 section me bat diya jaiga home 
+                                         project and contact to in tino ko divide aur structural show karne ke liye hamlog section tag ka use karte hai jisme class bnate hai  -->
+        <div class="home_content">
+            <h1> hi , i'm <span id="element"><!----this is the place where we ae going to place javascript code -----></span> <br>Front-End
+                developer  </h1>
+            <p>    <br>  </p>
+            <a href="#about" class="btn">Know more</a>
+        </div>
+        <img src="newphoto11.jpg" alt>
+    </section>              
+
+    <!----------start section about----------------->            
+    <section class="about " id="about">
+        <img src="photo2.jpg" alt>
+        <div class="about_content">
+            <h1 class="heading">about<span>me</span></h1>
+            <h4>A 2nd Year Guy</h4>
+            <p>Hi, I'm Gaurav Kumar Baraik, an ex-Davian with 91% in 10th and 86% in 12th.<br>
+                 After clearing JEE Mains, I'm now pursuing a B.Tech in Computer Science Engineering at BIT Mesra Ranchi.<br>
+                  I'm passionate about drawing, painting, and driving, and I value discipline in life.<br> </p>                                                                                                                         
+            <a href="#" class="btn"> read more</a>
+
+        </div>
+        <img src="certificate.png" alt>
+        <img src="iet.jpg" alt>
+        <img src="painting2.jpg" alt>
+        <img src="certificate.jpg" alt>
+        <img src="certificate2.jpg" alt>
+
+    </section>
+
+    <!----------start  services section ---------->
+    <section class="service" id="service">
+        <h1 class="heading">our<span>Service</span></h1>
+        <div class="service_container">
+            <div class="service_box">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h2>Making Art</h2>
+                <p>    </p>
+                <a href="#" class="btn">read more</a>
+
+            </div>
+            <div class="service_box">
+                <i class="fa-solid fa-video"></i>
+                <h2>video Edit </h2>
+                <p>  </p>
+                <a href="#" class="btn">read more</a>
+
+            </div>
+
+            <div class="service_box">
+                <i class="fa-solid fa-layer-group"></i>
+                <h2>Graphics design</h2>
+                <p> </p>
+                <a href="#" class="btn">read more</a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!------start section project-->
+    <section class="project" id="project">
+        <h1 class="heading">our<span>projects</span></h1> <!---span iss liye use kiya jata hai taki uske nadar ka chiz ko speciafic operation kiya ja sake baki chiz ke comarpsion me -->
+        <div class="project_container"> <!--rid ka use kiya ja sake isliye ye class ka jarurat padt hai jo ki apne andar sar box ko rakhe hold kar ke -->
+
+
+            <div class="project_box">
+                <img src="graphics.png" alt>
+             
+                 
+
+                <div class="project_content">
+                    <h2>Graphics design</h2>
+                    <p>i can make graphicsdesign  </p>
+                     
+                </div>
+
+            </div>
+
+
+
+
+            <div class="project_box">
+                <img src="raksha bandhan.png" alt>
+                 
+
+                <div class="project_content">
+                    <h2>Graphics design</h2>
+                    <p>i can make graphicsdesign  </p>
+                    <!-- <a href="#"><i
+                            class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="project_box">
+                <img src="art.jpg" alt>
+                <div class="project_content">
+                    <h2>ART BY ME</h2>
+                    <p>i can draw beautiful portraits , oil paintings , colour paintings ,canvas paitings </p>
+                    <a href="https://www.instagram.com/mr_x779over?utm_source=qr&igsh=MTFvcGIwbmwxcGg3">
+                         <i class="fa-solid fa-up-right-from-square"></i></a>   <!--  i tag inline tag hota hai ye font aur icons ke liye use karte hai ye jo class hai wo hamlog icon ke liye use kar rhe hai  -->
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="project_box">
+                <img src="websitelogo.jpg" alt>
+                <div class="project_content">
+
+                    <h2>web design</h2>
+                    <p>i can design basic websites </p>
+                    <a href="C:\Users\BIT\OneDrive\Desktop\Coding\newhtml\STUDENT MANAGEMENT SYSTEM"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="project_box">
+                <img src="thor.jpg" alt>
+                <div class="project_content">
+                    <h2>3D Modeling</h2>
+                    <p>I can design 3D computer models </p><br>
+
+                    <p>Thor majoline 3D modeling </p>
+                    <a href="https://my.spline.design/untitled-2f5db9057ff2c470c5f61f49490b9dc6/"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                       
+                </div>
+
+            </div>
+
+
+
+            <div class="project_box">
+                <img src="airbuds.jpg" alt>
+                <div class="project_content">
+
+                    <h2>3D Modeling</h2>
+                    <p>I can design 3D computer models </p><br>
+
+                     
+                       <p>  This is second design of airdopes </p>
+                    <a href="https://my.spline.design/untitled-33977a323ab732b87cd4d4602928731b/"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div> 
+
+
+
+            <div class="project_box">
+                <img src="photo12.jpg" alt>
+                <div class="project_content">
+                    <h2>Photographic knowledge </h2>
+                    <p>I can take a balanced and object focused iamge with fine and nice adjustment . filming the movie shots and movie type shoting ideas . diffrent kind of shorts like shoulder shot lower shot dron shot and many more i can take provided quality of camera also shuld be matched by me specs 4k 60 fps stabilization mode it will enhance videography and photgraphy  </p><br>
+
+                     
+                       <p>  This is second design of airdopes </p>
+                    <a href="https://my.spline.design/untitled-33977a323ab732b87cd4d4602928731b/"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div> 
+
+
+            <div class="project_box">
+                <img src="editing.jpg" alt>
+                <div class="project_content">
+                    <h2>VIDEO EDITING</h2>
+                    <p>I can edit videos for you </p>
+                    <a href="video.mp4"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                     
+    
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- -----this section is new and it is about the social handel  -->
+     <!-- method 1 -->
+
+    <section class="service" id="social">
+        <h1 class="heading">Our<span>Socialhandels</span></h1> 
+
+         <!-- another method  2 to add my social handels    -->
+         <div class="image-container">
+            <a href="https://youtube.com/@b-itian_gaurav?si=IDB2umL9PWFIdTVH">
+                <img src="yt1.jpg"  >
+            </a> 
+            <a href="https://www.instagram.com/_gaurav_kumar889?igsh=dnVwOHR2bm9kdzg1">
+                <img src="insta3d.jpeg"  >
+            </a> 
+            <a href="https://www.linkedin.com/in/gaurav-kumar-baraik-5a750026b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img src="linkedin.jpeg" >
+            </a> 
+            <a href="https://github.com/xswift-coder770">
+                <img src="github.jpeg" >
+            </a>
+             
+        </div>
+        
+
+
+
+ 
+
+  
+    
+
+
+
+    <!-------start section contact-->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact <span>me</span></h1>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" name="full_name" id="full_name" placeholder="full name">
+                <input type="email" name="email" id="email" placeholder="email">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" id="number" placeholder="your number">
+                <input type="text" name="address" id="address" placeholder="address">
+            </div>
+            <textarea name="message" id="message" placeholder="your message"></textarea>
+            <input type="submit" value="send message">
+        </form>
+    </section>
+    
+
+    <body>
+
+            <!-- body ka content yaha start hai  -->
+
+        <header>
+            <h1 class="logo"> My<span>Portfolio</span></h1>
+            <nav>
+                <a href="#home" style="--i: 1 ;">home</a>  <!--ye no. time ko dikate hai kitna sec bad text ayega -->
+                <a href="#about" style="--i: 2;">about</a>
+                <a href="#service" style="--i: 3;">services</a>
+                <a href="#project" style="--i: 4;">projects</a>
+                <a href="#contact" style="--i: 5;">contact</a>
+
+            </nav>
+           
+
+            
+        </header>
+
+
+
+
+
+
+
+
+
+        <!---------link file javascript-->
+        <script src="script.js"></script>
+        <script
+            src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+        var typed = new Typed('#element', {
+          strings: ['Gaurav Baraik', 'also an art enthusiast '],
+          typeSpeed: 100,
+          loop:true
+        });
+
+
+
+      </script>
+ 
+
+
+
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css code 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: .3s ease;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(125, 56, 255) #222;
+}
+
+:root {
+    --bgclr: #000;
+    --secondBgClr: #222;
+    --clr: rgb(144, 0, 255);
+    --fontclr: #fff;
+    --paraClr: #eee;
+}
+
+h1, h2, h4, a,::placeholder {  /*ye are text ka first ko capital karne me madat karenga  */
+    text-transform: capitalize;
+}
+  
+
+h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+span {
+    color: var(--clr);
+}
+
+input {   /*input tag ke andar ye sara use hoga */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+section {
+    padding: 6%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    color: var(--fontclr);
+    margin-bottom: 40px;
+}
+
+body {
+    
+    background-color: var(--bgclr); 
+}
+ 
+header {
+    width: 100%;
+    position:fixed; /*ye upar ka heading bar ko fix rakh rha hai */
+    left: 0px;
+    right: 0px;
+    top:0px;
+    padding: 15px 5px 50px 120px ; /*ye header ka wo section hai jaha par mera name suru me gaurav script likha hua hai */
+     
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(44, 43, 44);
+}
+
+header .logo {
+    color: var(--fontclr);
+    animation: slideRight 1.5s ease forwards;
+    
+}
+header nav a {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px;
+    color: var(--fontclr);
+    animation: slideTop .5s ease forwards;
+    opacity: 0;
+    animation-delay: calc(.1s * var(--i));  /*yaha pe hamlog --i ka use kiye hai jo ki style use karne pe use me ata hai isko time delay karne ke liye  ya  usinque styling ke liye use karte hai */
+}
+
+ 
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.Home {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Home .home_content h1 {
+    color: var(--fontclr);
+    font-size: 50px;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.home_content p {
+    color: var(--paraClr);
+    margin: 20px 0 30px ;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.btn {                   /*pure buttion ka kam yaha kiya hua hai globally aur kahi nhi kiye hai */
+    display:inline-block;
+     
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: var(--clr);
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgb(102, 38, 198);
+}
+
+.btn:hover {
+    transform: scale(.95);
+}
+
+.Home img {
+    background-color: rgb(102, 38, 198);
+    padding: 35px;
+    padding-left: 2px;
+    border-radius: 70%;
+    height: 320px;
+    box-shadow: 31px 0px 50px rgb(122, 79, 203); /*horizontal ,vertical, blur effect  */
+    animation: slidescel 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 50;
+    
+}
+
+.about {
+    position: relative;
+    background-color: var(--secondBgClr);
+    display: flex;/*justify content align items flex wrap in sab ka use karne ke liye display flex ka use karna padega hi */
+    justify-content: center; /*horizontal centering karne ke liye iska use kiya jata hai */
+    align-items: center;
+    gap: 2rem;
+     flex-wrap: wrap; /*  ek line me fit nhi hone se agle me bhej deta hai  */
+}
+
+.about .about_content .heading {
+    margin-bottom: 5px;
+    text-align: left;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 0.7s;
+    opacity: 0;
+}
+
+.about .about_content h4 {
+    font-size: 30px;
+    color: var(--clr);
+    letter-spacing: 1px;
+}
+
+.about .about_content p {
+    color: var(--paraClr);
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.about img {
+    height: 300px;
+    border: 4px solid rgb(123, 0, 255);
+    box-shadow: 0px 0px   10px 1px rgb(113, 32, 190);
+}
+
+.service {
+    background-color: var(--bgclr);
+    color: #fff;
+}
+
+.service .service_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.service .service_container .service_box {
+    flex: 1 1 200px;
+    text-align: center;
+    background-color: #222;
+
+   /* background-image: url(editing.jpg);
+    background-size: cover; 
+    background-position: center; */
+    
+
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: solid 3px transparent;
+}
+
+.service .service_container .service_box:hover {
+    border: solid 3px rgb(125, 74, 228);
+    transform: scale(1.1);
+}
+
+.service .service_container .service_box i {
+    font-size: 35px;
+    color:rgb(132, 1, 255);
+    
+}
+
+.service .service_container .service_box h2 {
+    margin: 8px 0 8px;
+     
+}
+
+.service .service_container .service_box p {
+     
+}
+
+.project {
+    background-color: var(--secondBgClr);
+}
+
+.project .project_container {
+     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* defines a minimum width of 200px for each column and allows the column to grow and fill the remaining space with 1fr (1 fraction of the available space)*/
+    gap: 1.5rem /*root em*/
+}
+
+  .project .project_container .project_box {
+    
+    border-radius: 5px;  /*yaha se maine curve design diya hai thora sa bhut minute*/
+    position: relative;
+    overflow:hidden;   /*this is the main part where the box get the overflow effect and aslo scroll effect from the same to changing the attribute to scroll*/
+     
+}
+
+.project .project_container .project_box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project .project_container .project_box:hover img {
+    transform: scale(1.2);
+}
+
+.project .project_container .project_box .project_content {
+    position: absolute;
+     
+    background: linear-gradient(rgb(255, 0, 221),var(--clr));/*yaha gradient ka use kiye hai overflow ke case me taki looks thora acha lage jo orginal color hai wo to hai hi purple but upar se linear gradient ayega wo pink color select kiya hai maine  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    bottom: -100%;
+    transition: bottom 1s ease;
+}
+
+.project .project_container .project_box:hover .project_content {
+    bottom: 0;
+}
+
+.project .project_container .project_box .project_content h2 {
+    color: var(--fontclr);
+    font-size: 30px;
+}
+
+.project .project_container .project_box .project_content p {
+    color: var(--paraClr);
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.project .project_container .project_box .project_content a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--paraClr);
+    border-radius: 20px;
+    color: #000;
+}
+
+
+
+
+
+
+/* this is the new section which is copy of service section made for the social handel it is under testing  */
+
+#social.service {
+    background-color: var(--bgclr);
+    color: #fff;
+}
+ 
+ 
+
+
+ 
+   
+/* image dalne wala case me ye use hoga  */
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between images */
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 300px; /* Initial width of the image */
+    height: 180px; /* Maintain aspect ratio */
+    border-radius: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Example hover effect (optional) */
+}
+
+
+
+
+
+
+
+.service .service_container .service_box:hover {
+    border: solid 3px rgb(125, 74, 228);
+    transform: scale(1.1);
+}
+
+.service .service_container .service_box i {
+    font-size: 35px;
+    color:rgb(132, 1, 255);
+    text-shadow: 0 0 10px var(132,1,255);
+}
+
+.service .service_container .service_box h2 {
+    margin: 8px 0;
+}
+
+.service .service_container .service_box p {
+    margin: 8px 0 8px;
+}
+
+
+
+
+
+
+.contact {
+    background-color: var(--bgclr); /*var is the variable in the css predefined color ko yaha maine likha hai aisae */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact .heading {
+    color: var(--fontclr);
+}
+
+.contact .input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact .input-box input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: var(--secondBgClr);
+    color: var(--fontclr);
+}
+                      /* ================================================================================================ */
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: var(--secondBgClr);
+    color: var(--fontclr);
+    margin-bottom: 20px;
+}
+
+.contact input[type="submit"] {  /*yaha submit buttion pe work kiya gya hai */
+    background: var(--clr);
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px; /*two value iska matlab top aur bottom ke liye hai  3 value rhata to top (left and right) then bottom ke liye hota */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+
+/*------start section contacts-----------*/
+.contact {
+    color: #840fea;
+}
+
+.contact form {
+    max-width: 600px;
+    position: relative;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+ 
+ 
+.contact textarea { 
+     
+    width: 100%; /* Ensure it fits the container */
+}
+
+.contact .input-box input {
+    width: 49%;
+}
+
+ 
+
+/*----now responsive design----*/
+
+/*alag alag device me kaisa dikhega ye part decide karega */
+
+@media(max-width:808px){
+    .Home{
+        justify-content:center;
+        text-align:center;
+        align-items:center;
+        margin:50px;
+
+    }
+    .Home img{
+        margin-top:15px;
+
+    }
+    .about{
+        text-align:center;
+
+    }
+    .about .about_content .heading{
+        text-align:center;
+
+    }
+}
+
+@media(max-width:768px){
+    nav{
+        position:absolute;
+        top:90%;
+        left:0;
+        right:0;
+        background-color: #000;
+        padding:20px;
+
+    }
+    nav a{
+        display:block;
+        text-align:center;
+
+    }
+    header .fa-bars{
+        display:block;
+
+    }
+
+}
+@media(max-width:568px){
+    .Home .home_content h1{
+        color:var(--fontclr);
+        font-size:40px;
+    }
+
+    .Home img{
+        height:300px;
+
+    }
+    .about img{
+        height:300px;
+    }
+
+    .heading{
+        text-align:center;
+        font-size:3px;
+        color:var(--fontclr);
+        margin-bottom:40px;
+
+    }
+
+}
+
+ 
+----animation----
+
+
+/* this is the animation part jaha par ke framing kiya gya hai ki 0% and 100% me kaisa dikhega  */
+@keyframes slideRight{
+    0%{
+        transform:translateX(-100px);
+        opacity:0;
+    
+    }
+    100%{
+        transform:translateX(-100px);
+        opacity:1;
+
+    }
+
+}
+
+
+
+@keyframes slideTop{
+    0%{
+        transform:translatey(100px);
+        opacity:0;
+
+    }
+    100%{
+        transform:translatey(0px);
+        opacity:1;
+
+    }
+
+
+    
+}
+ 
+@keyframes slideBottom{
+    0%{
+        transform:translatey(100px);
+        opacity:0;
+
+    }
+    100%{
+        transform:translatey(0px);
+        opacity:1;
+
+    }
+}
+
+@keyframes slideLeft{
+    0%{
+        transform:translatex(-100px);
+        opacity:0;
+    }
+    100%{
+        translate:translatex(0px);
+        opacity:1;
+
+    }
+}
+@keyframes slidescel{
+    0%{
+        transform:scale(0);
+        opacity:0;
+
+    }
+    100%{
+        transform:sclae(1);
+        opacity:1;
+        
+    }
+}

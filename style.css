@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: .3s ease;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(125, 56, 255) #222;
+}
+
+:root {
+    --bgclr: #000;
+    --secondBgClr: #222;
+    --clr: rgb(144, 0, 255);
+    --fontclr: #fff;
+    --paraClr: #eee;
+}
+
+h1, h2, h4, a,::placeholder {  /*ye are text ka first ko capital karne me madat karenga  */
+    text-transform: capitalize;
+}
+  
+
+h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+span {
+    color: var(--clr);
+}
+
+input {   /*input tag ke andar ye sara use hoga */
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+section {
+    padding: 6%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    color: var(--fontclr);
+    margin-bottom: 40px;
+}
+
+body {
+    
+    background-color: var(--bgclr); 
+}
+ 
+header {
+    width: 100%;
+    position:fixed; /*ye upar ka heading bar ko fix rakh rha hai */
+    left: 0px;
+    right: 0px;
+    top:0px;
+    padding: 15px 5px 50px 120px ; /*ye header ka wo section hai jaha par mera name suru me gaurav script likha hua hai */
+     
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(44, 43, 44);
+}
+
+header .logo {
+    color: var(--fontclr);
+    animation: slideRight 1.5s ease forwards;
+    
+}
+header nav a {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px;
+    color: var(--fontclr);
+    animation: slideTop .5s ease forwards;
+    opacity: 0;
+    animation-delay: calc(.1s * var(--i));  /*yaha pe hamlog --i ka use kiye hai jo ki style use karne pe use me ata hai isko time delay karne ke liye  ya  usinque styling ke liye use karte hai */
+}
+
+ 
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.Home {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Home .home_content h1 {
+    color: var(--fontclr);
+    font-size: 50px;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.home_content p {
+    color: var(--paraClr);
+    margin: 20px 0 30px ;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.btn {                   /*pure buttion ka kam yaha kiya hua hai globally aur kahi nhi kiye hai */
+    display:inline-block;
+     
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: var(--clr);
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgb(102, 38, 198);
+}
+
+.btn:hover {
+    transform: scale(.95);
+}
+
+.Home img {
+    background-color: rgb(102, 38, 198);
+    padding: 35px;
+    padding-left: 0px;
+    border-radius: 100%;
+    height: 330px;
+     box-shadow: 35px 0px 20px rgb(122, 79, 203); /*horizontal ,vertical, blur effect  */
+    animation: slidescel 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 50;
+    
+}
+
+.about {
+    position: relative;
+    background-color: var(--secondBgClr);
+    display: flex;/*justify content align items flex wrap in sab ka use karne ke liye display flex ka use karna padega hi */
+    justify-content: center; /*horizontal centering karne ke liye iska use kiya jata hai */
+    align-items: center;
+    gap: 2rem;
+     flex-wrap: wrap; /*  ek line me fit nhi hone se agle me bhej deta hai  */
+}
+
+.about .about_content .heading {
+    margin-bottom: 5px;
+    text-align: left;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 0.7s;
+    opacity: 0;
+}
+
+.about .about_content h4 {
+    font-size: 30px;
+    color: var(--clr);
+    letter-spacing: 1px;
+}
+
+.about .about_content p {
+    color: var(--paraClr);
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.about img {
+    height: 300px;
+    border: 4px solid rgb(123, 0, 255);
+    box-shadow: 0px 0px   10px 1px rgb(113, 32, 190);
+}
+
+.service {
+    background-color: var(--bgclr);
+    color: #fff;
+}
+
+.service .service_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.service .service_container .service_box {
+    flex: 1 1 200px;
+    text-align: center;
+    background-color: #222;
+
+   /* background-image: url(editing.jpg);
+    background-size: cover; 
+    background-position: center; */
+    
+
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: solid 3px transparent;
+}
+
+.service .service_container .service_box:hover {
+    border: solid 3px rgb(125, 74, 228);
+    transform: scale(1.1);
+}
+
+.service .service_container .service_box i {
+    font-size: 35px;
+    color:rgb(132, 1, 255);
+    
+}
+
+.service .service_container .service_box h2 {
+    margin: 8px 0 8px;
+     
+}
+
+.service .service_container .service_box p {
+     
+}
+
+.project {
+    background-color: var(--secondBgClr);
+}
+
+.project .project_container {
+     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* defines a minimum width of 200px for each column and allows the column to grow and fill the remaining space with 1fr (1 fraction of the available space)*/
+    gap: 1.5rem /*root em*/
+}
+
+  .project .project_container .project_box {
+    
+    border-radius: 5px;  /*yaha se maine curve design diya hai thora sa bhut minute*/
+    position: relative;
+    overflow:hidden;   /*this is the main part where the box get the overflow effect and aslo scroll effect from the same to changing the attribute to scroll*/
+     
+}
+
+.project .project_container .project_box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project .project_container .project_box:hover img {
+    transform: scale(1.2);
+}
+
+.project .project_container .project_box .project_content {
+    position: absolute;
+     
+    background: linear-gradient(rgb(255, 0, 221),var(--clr));/*yaha gradient ka use kiye hai overflow ke case me taki looks thora acha lage jo orginal color hai wo to hai hi purple but upar se linear gradient ayega wo pink color select kiya hai maine  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    bottom: -100%;
+    transition: bottom 1s ease;
+}
+
+.project .project_container .project_box:hover .project_content {
+    bottom: 0;
+}
+
+.project .project_container .project_box .project_content h2 {
+    color: var(--fontclr);
+    font-size: 30px;
+}
+
+.project .project_container .project_box .project_content p {
+    color: var(--paraClr);
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.project .project_container .project_box .project_content a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--paraClr);
+    border-radius: 20px;
+    color: #000;
+}
+
+
+
+
+
+
+/* this is the new section which is copy of service section made for the social handel it is under testing  */
+
+#social.service {
+    background-color: var(--bgclr);
+    color: #fff;
+}
+ 
+ 
+
+
+ 
+   
+/* image dalne wala case me ye use hoga  */
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between images */
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 300px; /* Initial width of the image */
+    height: 180px; /* Maintain aspect ratio */
+    border-radius: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Example hover effect (optional) */
+}
+
+
+
+
+
+
+
+.service .service_container .service_box:hover {
+    border: solid 3px rgb(125, 74, 228);
+    transform: scale(1.1);
+}
+
+.service .service_container .service_box i {
+    font-size: 35px;
+    color:rgb(132, 1, 255);
+    text-shadow: 0 0 10px var(132,1,255);
+}
+
+.service .service_container .service_box h2 {
+    margin: 8px 0;
+}
+
+.service .service_container .service_box p {
+    margin: 8px 0 8px;
+}
+
+
+
+
+
+
+.contact {
+    background-color: var(--bgclr); /*var is the variable in the css predefined color ko yaha maine likha hai aisae */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact .heading {
+    color: var(--fontclr);
+}
+
+.contact .input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact .input-box input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: var(--secondBgClr);
+    color: var(--fontclr);
+}
+                      /* ================================================================================================ */
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: var(--secondBgClr);
+    color: var(--fontclr);
+    margin-bottom: 20px;
+}
+
+.contact input[type="submit"] {  /*yaha submit buttion pe work kiya gya hai */
+    background: var(--clr);
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px; /*two value iska matlab top aur bottom ke liye hai  3 value rhata to top (left and right) then bottom ke liye hota */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+
+/*------start section contacts-----------*/
+.contact {
+    color: #840fea;
+}
+
+.contact form {
+    max-width: 600px;
+    position: relative;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+ 
+ 
+.contact textarea { 
+     
+    width: 100%; /* Ensure it fits the container */
+}
+
+.contact .input-box input {
+    width: 49%;
+}
+
+ 
+
+/*----now responsive design----*/
+
+/*alag alag device me kaisa dikhega ye part decide karega */
+
+@media(max-width:808px){
+    .Home{
+        justify-content:center;
+        text-align:center;
+        align-items:center;
+        margin:50px;
+
+    }
+    .Home img{
+        margin-top:15px;
+
+    }
+    .about{
+        text-align:center;
+
+    }
+    .about .about_content .heading{
+        text-align:center;
+
+    }
+}
+
+@media(max-width:768px){
+    nav{
+        position:absolute;
+        top:90%;
+        left:0;
+        right:0;
+        background-color: #000;
+        padding:20px;
+
+    }
+    nav a{
+        display:block;
+        text-align:center;
+
+    }
+    header .fa-bars{
+        display:block;
+
+    }
+
+}
+@media(max-width:568px){
+    .Home .home_content h1{
+        color:var(--fontclr);
+        font-size:40px;
+    }
+
+    .Home img{
+        height:300px;
+
+    }
+    .about img{
+        height:300px;
+    }
+
+    .heading{
+        text-align:center;
+        font-size:3px;
+        color:var(--fontclr);
+        margin-bottom:40px;
+
+    }
+
+}
+
+ 
+----animation----
+
+
+/* this is the animation part jaha par ke framing kiya gya hai ki 0% and 100% me kaisa dikhega  */
+@keyframes slideRight{
+    0%{
+        transform:translateX(-100px);
+        opacity:0;
+    
+    }
+    100%{
+        transform:translateX(-100px);
+        opacity:1;
+
+    }
+
+}
+
+
+
+@keyframes slideTop{
+    0%{
+        transform:translatey(100px);
+        opacity:0;
+
+    }
+    100%{
+        transform:translatey(0px);
+        opacity:1;
+
+    }
+
+
+    
+}
+ 
+@keyframes slideBottom{
+    0%{
+        transform:translatey(100px);
+        opacity:0;
+
+    }
+    100%{
+        transform:translatey(0px);
+        opacity:1;
+
+    }
+}
+
+@keyframes slideLeft{
+    0%{
+        transform:translatex(-100px);
+        opacity:0;
+    }
+    100%{
+        translate:translatex(0px);
+        opacity:1;
+
+    }
+}
+@keyframes slidescel{
+    0%{
+        transform:scale(0);
+        opacity:0;
+
+    }
+    100%{
+        transform:sclae(1);
+        opacity:1;
+        
+    }
+}
